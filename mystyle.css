@@ -1,9 +1,7 @@
 html, body {
 	height:100%;
-}
-header {
-	border:1px;
-	border-color:teal;
+	padding:0;
+	margin:0;
 }
 
 #img {
@@ -13,16 +11,70 @@ header {
 	margin-left:auto;
 	margin-right:auto;
 }
+
 div {
 	background-image:url("resources/sea.jpg");
 	height:100%;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
+	overflow: scroll
 }
+
 #menu {
-	font-family:comic sans;
-	font-size:120%;
-	text-align:right;
+	top:50%;
+	right:0;
+	width:60px;
+}
+
+ul {
+	marging:0;
+	padding:0;
+	position:absolute;
+	right:16px;
 	list-style-type:none;
 }
+
+li a {
+	display:block;
+	padding: 4px 8px;
+	text-decoration:none;
+	color:DarkSlateGray;
+	background-color:rgba(0, 255, 255, 0.1);
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-weight:bold;
+	font-size:180%;
+	text-align:right;
+}
+
+li a.active {
+	background-color:rgba(0, 255, 255, 0.3);
+}
+
+li a:hover:not(.active) {
+	background-color:powderblue;
+}
+h1 {
+	margin-left:30px;
+	color:teal;
+	font-size:250%;
+}
+.p {
+	width:700px;
+	border: 10px powderblue;
+	padding:15px;
+	margin:15px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-weight:bold;
+	font-size:120%;
+	}
+footer {
+	padding:1em;
+	color:teal;
+	background-color:rgba(0, 255, 255, 0.3);
+	clear:left;
+	text-align:center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:100%;
+}
+
