@@ -1,0 +1,26 @@
+html, body {
+	height:100%;
+}
+header {
+	border:1px;
+	border-color:teal;
+}
+
+#img {
+	width:320px;
+	height:110px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+div {
+	background-image:url("resources/sea.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#menu {
+	font-family:comic sans;
+	font-size:120%;
+	text-align:right;
+	list-style-type:none;
+}
